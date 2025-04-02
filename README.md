@@ -32,7 +32,7 @@ Microserviço desenvolvido como teste técnico
 - Configuração do hubspot.webhook.url para o endereço que fará o encaminhamento dos eventos, já que será teste local. (Obrigatório apenas para o funcionamento correto do endpoint do webhook)
 
 ## Como executar a aplicação
-1. Obter o pacote integracaohs.jar presente na pasta src/target deste projeto.
+1. Obter o pacote integracaohs.jar presente na pasta src/target deste projeto OU no espaço de releases (ReleaseFinalv1).
 2. Certificar-se de que as variáveis citadas no item anterior estejam exportadas no ambiente em que será executada a aplicação:
   - [Criando variáveis de ambiente no Windows ou Linux](https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos?srsltid=AfmBOorgaeAvlMMlPX2XczCbFYxV4L_470tPMdYQOVxu6Ytmi0kUIOtb)
 3. Certificar-se de estar utilizando uma versão do java suportada, conforme requisito descrito acima. (Compilado em Java 21)
