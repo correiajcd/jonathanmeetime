@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: "integracaohs"
+
+server:
+  port: 8080
+  
+hubspot:
+  auth-url: https://app.hubspot.com/oauth/authorize
+  redirect-url: http://localhost:8080/auth/callback
+  api-base-url: https://api.hubapi.com
+  token-uri: /oauth/v1/token
+  contact-uri: /crm/v3/objects/contacts
+  webhook:
+    url: https://smee.io/WQUuXCUpdOVLpSB
+    max-timestamp: 300000
